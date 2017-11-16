@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        background-image: url('images/boombox2.jpg');
+        background-size: 500px, 500px;
+    }
+    
+</style>    
+
+    <meta charset="UTF-8">
+    <title>Vikki Jukebox Starter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/soundcloud.css" />      
+</head>
+<body>
+    <div id="jukebox">
+        <div class="info">Sample Songs</div>
+        <div class="controls">
+            <div class="seek">
+                <input type="range" min="0" max="10000" step="0" value="0" />
+            </div>
+            <span class="fa fa-backward back"></span>
+            <span class="fa fa-play play"></span>
+            <span class="fa fa-pause pause"></span>
+            <span class="fa fa-forward next"></span>
+        </div>
+    </div>
+           <script src="https://connect.soundcloud.com/sdk/sdk-3.2.1.js"></script>
+          <!-- <script src="js/soundcloud.js"></script> -->
+           <script src="js/jukebox.js"></script>
+    </body>
+</html>
